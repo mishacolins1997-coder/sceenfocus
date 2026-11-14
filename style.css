@@ -1,0 +1,10 @@
+#sf_list { display: flex; flex-direction: column; gap: 6px; margin: 8px 0; }
+.sf-row { display: flex; align-items: center; gap: 8px; }
+.sf-row .sf-name { flex: 1; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sf-row .sf-role { width: 120px; }
+.sf-row .sf-focus-label { display: flex; align-items: center; gap: 4px; cursor: pointer; white-space: nowrap; }
+.sf-empty { opacity: .6; font-style: italic; }
+.sf-add { display: flex; gap: 6px; margin-bottom: 8px; }
+.sf-add input { flex: 1; }
+.sf-buttons { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+.sf-hint { opacity: .7; font-size: .85em; margin: 4px 0; }
